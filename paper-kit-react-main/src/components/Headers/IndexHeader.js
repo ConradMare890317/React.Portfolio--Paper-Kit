@@ -31,24 +31,24 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/antoine-barres.jpg").default + ")",
+            "url(" + require("assets/img/Landscape.jpg").default + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title">Paper Kit React</h1>
+              <h1 className="presentation-title">Conrad Maré</h1>
               <div className="fog-low">
                 <img
                   alt="..."
-                  src={require("assets/img/fog-low.png").default}
+                  src={require("assets/img/clouds.png").default}
                 />
               </div>
               <div className="fog-low right">
                 <img
                   alt="..."
-                  src={require("assets/img/fog-low.png").default}
+                  src={require("assets/img/clouds.png").default}
                 />
               </div>
             </div>
