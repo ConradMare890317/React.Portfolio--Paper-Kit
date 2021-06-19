@@ -67,11 +67,11 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/index"
+            href="https://github.com/ConradMare890317"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="GitHub.io"
           >
-            Paper Kit React
+            Conrad Maré
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
