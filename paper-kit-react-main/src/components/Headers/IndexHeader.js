@@ -53,7 +53,7 @@ function IndexHeader() {
               </div> */}
             </div>
             <h2 className="presentation-subtitle text-center">
-            Portfolio (Reactstrap)
+            Portfolio made with Reactstrap.
             </h2>
           </Container>
         </div>
@@ -65,7 +65,7 @@ function IndexHeader() {
           }}
         />
         <h6 className="category category-absolute">
-          Coded by Conrad Maré.
+          (JSX)
         </h6>
       </div>
     </>

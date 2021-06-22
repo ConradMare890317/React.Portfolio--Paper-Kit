@@ -34,19 +34,19 @@ import {
 
 const items = [
   {
-    src: require("assets/img/soroush-karimi.jpg").default,
-    altText: "Somewhere",
-    caption: "Somewhere",
+    src: require("assets/img/JavaScript.png").default,
+    altText: "JavaScript",
+    caption: "JavaScript",
   },
   {
-    src: require("assets/img/federico-beccari.jpg").default,
-    altText: "Somewhere else",
-    caption: "Somewhere else",
+    src: require("assets/img/Python.png").default,
+    altText: "Python ( 3 )",
+    caption: "Python ( 3 )",
   },
   {
-    src: require("assets/img/joshua-stannard.jpg").default,
-    altText: "Here it is",
-    caption: "Here it is",
+    src: require("assets/img/SQL.png").default,
+    altText: "SQL ( postgreSQL & NoSQL )",
+    caption: "SQL ( postgreSQL & NoSQL )",
   },
 ];
 
@@ -76,6 +76,7 @@ function SectionCarousel() {
   return (
     <>
       <div className="section pt-o" id="carousel">
+      <h1>About</h1>
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="8">
