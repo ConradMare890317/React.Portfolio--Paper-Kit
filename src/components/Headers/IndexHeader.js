@@ -32,7 +32,7 @@ function IndexHeader() {
             <h2 className="presentation-subtitle text-center">
             Made with Reactstrap / React - Bootstrap.
             </h2>
-          </Container>
+        </Container>
         </div>
         <div
           className="moving-clouds"
