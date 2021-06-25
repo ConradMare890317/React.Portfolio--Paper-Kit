@@ -21,7 +21,6 @@ import React from "react";
 import classnames from "classnames";
 // reactstrap components
 import {
-  Button,
   Collapse,
   NavbarBrand,
   Navbar,
@@ -69,7 +68,7 @@ function IndexNavbar() {
             data-placement="bottom"
             href="https://conradmare@gmail.com"
             target="_blank"
-            title="Contact Me"
+            title="Send Mail"
           >
             Conrad Maré
           </NavbarBrand>
@@ -96,7 +95,7 @@ function IndexNavbar() {
                 data-placement="bottom"
                 href="https://www.linkedin.com/in/conrad-mar%C3%A9-a41abb79/"
                 target="_blank"
-                title="LinkedIn"
+                title="linkedin.com"
               >
                 <i className="fa fa-linkedin" />
                 <p className="d-lg-none">LinkedIn</p>
@@ -107,7 +106,7 @@ function IndexNavbar() {
                 data-placement="bottom"
                 href="https://web.facebook.com/conrad.mare"
                 target="_blank"
-                title="Facebook"
+                title="Conrad.Maré/facebook"
               >
                 <i className="fa fa-facebook-square" />
                 <p className="d-lg-none">Facebook</p>
@@ -119,7 +118,7 @@ function IndexNavbar() {
                 /* href="https://www.github.com/CreativeTimOfficial/paper-kit-react?ref=creativetim" */
                 href="https://github.com/ConradMare890317"
                 target="_blank"
-                title="GitHub"
+                title="ConradMare890317/github.io"
               >
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
