@@ -48,9 +48,12 @@ function SectionJavaScript() {
     <>
       <div className="section javascript-components">
         <Container>
-          <div className="title">
-            <h2>Javascript Components</h2>
-          </div>
+          <Col className="ml-auto mr-auto text-center" md="8">
+              <h2 className="title">JavaScript Components</h2>
+              <p className="description">
+                JavaScript - ES 6 & 7.
+              </p>
+            </Col>
           <Row id="modals">
             <Col md="6">
               <div className="title">
@@ -290,9 +293,6 @@ function SectionJavaScript() {
               </UncontrolledTooltip>
             </Col>
           </Row>
-          <div className="title">
-            <h3>Carousel</h3>
-          </div>
         </Container>
       </div>{" "}
     </>

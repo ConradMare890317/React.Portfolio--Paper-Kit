@@ -60,6 +60,14 @@ function SectionCarousel() {
       <div className="section pt-o" id="carousel">
         <Container>
           <Row>
+          <Col className="ml-auto mr-auto text-center" md="8">
+              <h2 className="title">Certificates</h2>
+              <h6 className="sub-title">Note: This is React(JSX) code.</h6>
+              <p className="description">
+                Html 4 & 5, Python3, SQL - postgreSQL, SQLite3, NoSQL ( Firebase, ElephantSQL )
+              </p>
+              <br />
+            </Col>
             <Col className="ml-auto mr-auto" md="8">
               <Card className="page-carousel">
                 <Carousel

@@ -26,7 +26,7 @@ import { Container, Row, Col } from "reactstrap";
 function SectionTypography() {
   return (
     <>
-      <Container className="tim-container">
+      {/*<Container className="tim-container">
         <div className="title">
           <h3>Typography</h3>
         </div>
@@ -134,11 +134,11 @@ function SectionTypography() {
             </div>
           </Row>
         </div>
-        <br />
+        <br />*/}
         <div id="images">
           <Container>
             <div className="title">
-              <h3>Images</h3>
+              <h3>About</h3>
             </div>
             <Row>
               <Col md="3" sm="6">
@@ -182,7 +182,7 @@ function SectionTypography() {
             </Row>
           </Container>
         </div>
-      </Container>
+      {/*</Container>*/}
     </>
   );
 }
